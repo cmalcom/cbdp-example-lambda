@@ -1,0 +1,11 @@
+{
+    "name": "example-lambda",
+    "version": "0.1.0",
+
+    "scripts": {
+      "build": "echo \"The build step is not required when using JavaScript!\" && exit 0"
+    },
+    "dependencies": {
+    }
+  }
+  
