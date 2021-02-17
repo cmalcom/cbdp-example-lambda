@@ -4,5 +4,5 @@ const GREETING = method => `Hello, ${method} Method!`;
 module.exports.handler = async event => {
   console.log(`Event log:  `, event);
 
-  return GREETING(event.httpMethod);
+  return GREETING(event.requestContext.http.method);
 };
