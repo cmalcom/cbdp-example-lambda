@@ -3,7 +3,8 @@
     "version": "0.1.0",
 
     "scripts": {
-      "build": "echo \"The build step is not required when using JavaScript!\" && exit 0"
+      "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+      "package": "zip -r package.zip *"
     },
     "dependencies": {
     }
